@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid black;
+}
+
+#Todolist {
+    text-align: center;
+    margin: 2% 30%;
+    padding: 2%;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+
+} 
+
+.list div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    gap: 9px;
+}
