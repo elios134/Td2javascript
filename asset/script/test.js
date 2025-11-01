@@ -12,18 +12,18 @@ function updateBtn() {
     let newsuppBtn = document.createElement("button")
 
     newsuppBtn.textContent = "supprimez"
-    newsuppBtn.setAttribute("class" ,"suppbtn")
-    listContainer.style.display ="block"
+    newsuppBtn.setAttribute("class", "suppbtn")
+    listContainer.style.display = "block"
+    listContainer.style.display="space"
     listContainer.appendChild(newDiv)
     newDiv.appendChild(newList)
     newDiv.appendChild(newsuppBtn)
     newList.textContent = tacheAjout.value
-    
-    newsuppBtn.addEventListener("click",function () {
+
+    newsuppBtn.addEventListener("click", function () {
         listContainer.removeChild(newDiv)
-        
+
     })
 
 }
-
 

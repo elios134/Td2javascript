@@ -1,29 +1,70 @@
-header {
+
+h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     border-bottom: solid black;
+    margin: 1% 30%;
+    font-family: "Grape Nuts";
+    font-size: 3em;
+
+}
+
+.articleContainer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    margin: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 #Todolist {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin: 2% 30%;
+    margin: 2% 40%;
     padding: 2%;
-    border: solid black;
+    box-shadow: 0px 0px 5px 5px lightgray;
     border-radius: 15px;
 }
 
 .list {
-    display: flex;
-    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    margin: 2% 40%;
+    padding: 2%;
 
-} 
+}
 
 .list div {
+    padding: 0;
+    gap: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 5px;
-    gap: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+input {
+    border: 0;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 5px lightgray;
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
 }
