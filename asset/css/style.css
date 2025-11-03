@@ -48,6 +48,7 @@ h1 {
     margin: 2% 40%;
     padding: 2%;
     color: black;
+    display: none;
 }
 
 .list div {
