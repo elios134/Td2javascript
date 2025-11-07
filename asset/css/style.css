@@ -78,3 +78,11 @@ button {
     margin: 3%;
     padding: 2%;
 }
+@media screen and (max-width:768px){
+body{
+    background-image: url(/asset/img/Utilise\ un\ pc.png);
+}
+main{
+    display: none;
+}
+}
